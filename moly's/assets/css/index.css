@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0 0;
+}
+body {
+  font-family: Helvetica, sans-serif, "Times New Roman", Times, serif;
+  background-color: white;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+}
+.main-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  background-color: darkred;
+}
+.comp-logo {
+  flex-basis: 20%;
+  margin-left: 20px;
+  color: gold;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+.menu-items {
+  flex-basis: 80%;
+}
+.menu-items ul {
+  float: right;
+  margin-right: 20px;
+  list-style-type: none;
+}
+.menu-items ul li {
+  display: inline;
+  margin-right: 20px;
+  color: gold;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+.main-pic {
+  width: 100%;
+}
+.back-main {
+  position: relative;
+}
+.back-main img {
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+  top: 50%;
+  left: 50%;
+  font-size: 4vw;
+  transform: translate(-50%, -80%);
+  color: gold;
+}
+
+.info {
+  background-color: lavenderblush;
+  height: auto;
+  margin: 20px 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.info-wrapper {
+  background-color: salmon;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.left-info {
+  width: 35%;
+  height: 100%;
+  background-color: white;
+}
+.left-info img {
+  width: 100%;
+  height: 100%;
+}
+.right-info {
+  display: flex;
+  justify-content: center;
+  display: inline;
+  width: 65%;
+  height: auto;
+  padding: 30px 30px;
+}
+.right-info h2 {
+  text-align: center;
+}
+.menu-sec {
+  height: 500px;
+  background-color: blue;
+}
+.rest-body {
+  margin: 0px 100px;
+  height: auto;
+  background-color: lavenderblush;
+  margin-bottom: 20px;
+}
+.title {
+  margin: 40px 40px;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 30px;
+  display: flex;
+}
+.details {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 60px;
+}
+.detail-img {
+  width: 300px;
+  height: 130px;
+}
+li:hover + .details {
+  display: inline;
+}
+.page-footer {
+  height: 350px;
+  background-color: darkred;
+  border: 0;
+}
+.copy-right {
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
