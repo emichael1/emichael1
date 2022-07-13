@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Archticture "
+	}
+],
+  "settings": {
+	"liveServer.settings.multiRootWorkspaceName": "Archticture ",
+	"liveServer.settings.port": 5501
+  }
+}
